@@ -1,6 +1,3 @@
-/*  Game rules follow a subset of the standard from:
- *  from https://www.bettingexpert.com/casino/blackjack/rules */
-
 package com.skilldistillery.cards.blackjack;
 
 import java.util.Scanner;
