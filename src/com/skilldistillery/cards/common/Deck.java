@@ -29,10 +29,11 @@ public class Deck {
 	
 	public Card dealCard() {
 		int random = (int)(Math.random() * checkDeckSize());
-		return deck.get(random);
+		return deck.remove(random);
 	}
 
 	public void shuffle() {
+		System.out.println("Shuffling cards!");
 		Collections.shuffle(deck);
 	}
 	

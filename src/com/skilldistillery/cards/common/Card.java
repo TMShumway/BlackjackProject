@@ -19,6 +19,10 @@ public class Card {
 	public int getValue() {
 		return this.rank.getValue();
 	}
+	
+	public char getRankSymbol() {
+		return this.rank.getRankSymbol();
+	}
 
 	public String getCardTemplate() {
 		return cardTemplate;
